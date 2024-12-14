@@ -1,0 +1,30 @@
+.container-div{
+  display: inline-block
+  width: 370px;
+  background-color: blue;
+  width: 370px;
+}
+
+.thumbnail-container{
+  background-color: rgb(223, 22, 25);
+}
+
+.icon-info-container{
+  margin-top: 15px;
+  background-color: chartreuse;
+
+}
+
+.icon-container{
+display: inline-block;
+width: 40px;
+background-color: aquamarine;
+vertical-align: top;
+}
+
+.video-info-container{
+display:inline-block;
+width: 300px;
+background-color: blueviolet;
+margin-top: 0;
+}
