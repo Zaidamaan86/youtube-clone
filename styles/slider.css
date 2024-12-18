@@ -1,7 +1,8 @@
 .slider-section{
   display: flex;
+  flex-shrink: 0;
   position: fixed;
-  left: 0px;
+  left: 102px;
   right: 0px;
   top: 66px;
   background-color: rgb(255, 255, 255);
@@ -12,9 +13,10 @@
 }
 
 .slide-button{
+  width: fit-content;
   border-radius: 8px;
   border-style: none;
-  padding-inline: 11px;
+  padding-inline: 14px;
   padding-block: 10px;
   font-family: roboto, Arial, Helvetica, sans-serif;
   font-size: 15px;
