@@ -1,0 +1,27 @@
+.slider-section{
+  display: flex;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 66px;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-button{
+  border-radius: 8px;
+  border-style: none;
+  padding-inline: 11px;
+  padding-block: 10px;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.15s;
+}
+
+.slide-button:hover{
+  background-color: rgb(233, 231, 231);
+}
